@@ -1,2 +1,7 @@
+# Editor
+.idea/
+
+# Sass
 .sass-cache/
 *.css.map
+sass/style.css
