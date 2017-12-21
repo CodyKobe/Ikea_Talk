@@ -21,10 +21,4 @@ $(document).ready(function(){
 		});	  	
 	}
 
-
-
-
-
-
 });
-
