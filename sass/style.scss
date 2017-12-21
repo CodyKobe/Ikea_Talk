@@ -181,7 +181,6 @@ header{
 }
 //!-----------------------
 .main{
-	padding: 1.5%;
 	.left-margin{
 		width: 31%;
 		.img-caption{
@@ -189,6 +188,9 @@ header{
 			text-align: right;
 			font-size: 13px;
 			line-height: 2em;
+			p{
+                padding-left: 1.7%;
+            }
 			&.one{
 				margin-top: 340px;
 			}
@@ -197,6 +199,7 @@ header{
 			}
 		}
 		.orange{
+			padding-left: 0.7rem;
 			color: $orangeFont;
 			text-align: left;
 			font-style: italic;
@@ -266,20 +269,15 @@ footer{
 		width: 94%;
 	}
 	.motto{
-		display: inline-block;
 		color: $greyFont;
 		font-style: italic;
 		font-size: 21px;
-		transform: translate(-50px, -11px);
-		@media(max-width: 960px){
-			font-size: 15px;
-			transform: translate(-5px, -14px);;
+        margin: 21px auto;
+		@media(max-width: 490px){
 		}
 	}
 	.footer-social{
 		@include inline-block;
-		display: inline-block;
-		margin-top: 10px;
 		a{
 			text-decoration: none;
 			margin: 7px;
